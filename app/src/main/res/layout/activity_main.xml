@@ -28,6 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pune"
+            android:textStyle="bold"
             android:textColor="@color/text_and_main"/>
 
             <TextView
@@ -35,6 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Update AT"
+                android:textStyle="bold"
                 android:textColor="@color/text_and_main"
                 android:textSize="14dp"/>
         </LinearLayout>
@@ -50,33 +52,46 @@
                 android:id="@+id/status"
                 android:textSize="18sp"
                 android:text="Rainny "
+                android:textStyle="bold"
+                android:textColor="@color/text_and_main"
                 android:layout_gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
             <TextView
                 android:id="@+id/temp"
-                android:textSize="90sp"
+                android:textSize="70sp"
                 android:fontFamily="sans-serif-thin"
                 android:gravity="center"
                 android:text="24°C"
+                android:textStyle="bold"
+                android:textColor="@color/text_and_main"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
-            <LinearLayout android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:gravity="center">
-                <TextView android:id="@+id/temp_min"
+
+                <TextView
+                    android:id="@+id/temp_min"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_and_main"
                     android:text="Min Temp: 05:05 AM"/>
-                <Space android:layout_width="50dp"
+
+                <Space
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"/>
 
                 <TextView android:id="@+id/temp_max"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/text_and_main"
                     android:text="Max Temp: 05:05 PM"/>
 
             </LinearLayout>
@@ -108,17 +123,25 @@
                         <Space
                             android:layout_width="wrap_content"
                             android:layout_height="5dp"/>
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Sunrise"
+                            android:textColor="@color/text_and_main"
                             android:textSize="12dp"
-                            android:text="Sunrise"/>
+                            android:textStyle="bold" />
+
                         <TextView
                             android:id="@+id/sunrise"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="06:40 AM"
+                            android:textColor="@color/text_and_main"
                             android:textSize="14dp"
-                            android:text="06:40 AM"/>
+                            android:textStyle="bold" />
                     </LinearLayout>
 
                     <Space
@@ -140,17 +163,25 @@
                         <Space
                             android:layout_width="wrap_content"
                             android:layout_height="5dp"/>
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Sunset"
+                            android:textColor="@color/text_and_main"
                             android:textSize="12dp"
-                            android:text="Sunset"/>
+                            android:textStyle="bold" />
+
                         <TextView
                             android:id="@+id/sunset"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="06:40 AM"
+                            android:textColor="@color/text_and_main"
                             android:textSize="14dp"
-                            android:text="06:40 AM"/>
+                            android:textStyle="bold" />
                     </LinearLayout>
 
                     <Space
@@ -171,17 +202,25 @@
                         <Space
                             android:layout_width="wrap_content"
                             android:layout_height="5dp"/>
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Wind"
+                            android:textColor="@color/text_and_main"
                             android:textSize="12dp"
-                            android:text="Wind"/>
+                            android:textStyle="bold" />
+
                         <TextView
                             android:id="@+id/wind"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="06:40 AM"
+                            android:textColor="@color/text_and_main"
                             android:textSize="14dp"
-                            android:text="06:40 AM"/>
+                            android:textStyle="bold" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -210,17 +249,25 @@
                     <Space
                         android:layout_width="wrap_content"
                         android:layout_height="5dp"/>
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Pressure"
+                        android:textColor="@color/text_and_main"
                         android:textSize="12dp"
-                        android:text="Pressure"/>
+                        android:textStyle="bold" />
+
                     <TextView
                         android:id="@+id/pressure"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="06:40 AM"
+                        android:textColor="@color/text_and_main"
                         android:textSize="14dp"
-                        android:text="06:40 AM"/>
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <Space
@@ -245,13 +292,20 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="12dp"
-                        android:text="Humidity"/>
+                        android:gravity="center"
+                        android:text="Humidity"
+                        android:textColor="@color/text_and_main"
+                        android:textStyle="bold"/>
+
                     <TextView
                         android:id="@+id/humidity"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="06:40 AM"
+                        android:textColor="@color/text_and_main"
                         android:textSize="14dp"
-                        android:text="06:40 AM"/>
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <Space
@@ -276,12 +330,18 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="12dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textColor="@color/text_and_main"
                         android:text="Handcrafted By "/>
                     <TextView
                         android:id="@+id/about"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="14dp"
+                        android:textSize="27dp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textColor="@color/text_and_main"
                         android:text="Oɲƙɑɾ"/>
                 </LinearLayout>
             </LinearLayout>
