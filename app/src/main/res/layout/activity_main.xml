@@ -31,7 +31,7 @@
             android:textColor="@color/text_and_main"/>
 
             <TextView
-                android:id="@+id/uodate_at"
+                android:id="@+id/updated_at"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Update AT"
@@ -304,6 +304,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:visibility="gone"
+        android:textStyle="bold"
         android:text="Something went wrong"/>
 
 </RelativeLayout>
